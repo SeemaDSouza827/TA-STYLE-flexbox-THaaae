@@ -6,3 +6,62 @@
 - Using CSS resets is necessary.
 - Use semantic tags and keep the nesting and indentation proper.
 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/stylesheet/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Noto+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3ea1c7a5a1.js" crossorigin="anonymous"></script>
+    <title>Flex-Gallery</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container flex">
+            <div >
+                <img class="logo" src="assets/media/altcampus-logo.svg" alt="">
+            </div>
+            <div>
+                <nav class="flex">
+                    <a href="#">Home</a>
+                    <a class="active" href="#">Gallery</a>
+                    <a href="#">Contact</a>
+                </nav>
+            </div>            
+        </div>       
+    </header>
+    <main>
+        <section>
+            <header>
+                <div class="tittle">
+                    Gallery
+                </div>                
+            </header>
+        </section>
+        <div class="container gallery">            
+            <img class="gal" src="assets/media/01.png" alt="1">
+            <img class="gal" src="assets/media/02.png" alt="2">
+            <img class="gal" src="assets/media/03.png" alt="3">
+            <img class="gal" src="assets/media/04.png" alt="4">
+            <img class="gal" src="assets/media/05.png" alt="5">
+            <img class="gal" src="assets/media/06.png" alt="6">
+        </div>
+    </main>
+    <footer class="footer">        
+        <div class=" container flex">
+            <div>
+                <small>&copy;AltCampus</small>
+            </div>
+            <div>
+                <nav>
+                    <i class="fab fa-facebook "></i>
+                    <i class="fab fa-twitter "></i>
+                </nav>  
+            </div>                     
+        </div>        
+    </footer>    
+</body>
+</html>
