@@ -1,0 +1,153 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* customized */
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+body{
+    font-weight: 400;
+    line-height: 1;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.container{
+    max-width: 1300px;
+    margin: 0 50px;
+    padding: 0 25px;
+}
+.header, .footer {
+    background-color: rgb(26, 26, 70);
+    color: rgb(204, 202, 202);
+    font-size: 12px;    
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    vertical-align: middle;
+    height: 60px;
+}
+.header a{
+    display: flex;    
+}
+.logo{
+    width: 90px;   
+}
+.side-bar{
+    border-radius: 10px;
+    padding: 25px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: 700;
+    align-self:stretch;
+    background-color: lightblue;
+}
+.box{
+    padding: 20px 10px;  
+    vertical-align: middle;
+}
+.active{
+    color: orange;
+    border-radius: 15px;
+    border:2px solid orange;
+}
+.artical{
+    width: 100%;
+    height: 600px;
+    text-align: justify;
+    border-radius: 25px;
+    padding: 4%;   
+    background-color: rgb(221, 236, 247);
+}
+.log{
+    width: 100%;
+    background-color: rgb(240, 250, 255);
+    border-radius: 15px;
+}
+span{
+    text-transform: capitalize;
+}
+.flex{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+h2{
+    font-size: 40px;
+    padding: 7px 0;
+    font-weight: 600;
+}
+h3{
+    color: #fff;
+    font-size: 18px;
+}
+.artical-img{
+    width: 100%;
+    object-fit: contain;
+}
+section{
+    flex: 0 1 30%;
+    padding: 40px 10px;
+}
+.section1{
+    flex: 0 1 65%;
+}
+.artical-text{
+    font-family: 'Raleway', sans-serif;
+    padding: 20px 0;
+}
+.btn{
+    color: white;
+    background-color: rgb(45, 243, 45);
+    width: 100px;
+    font-size: 18px;
+    padding: 5px 0;
+    text-align: center;
+    border-radius: 10px;
+    margin: 5px 20px;
+}

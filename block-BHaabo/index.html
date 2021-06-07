@@ -1,0 +1,100 @@
+<!-- 
+- Create a page using flexbox according to the layout shown below.
+
+![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-2.png)
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper. 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/stylesheet/style.css">
+    <script src="https://kit.fontawesome.com/3ea1c7a5a1.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Source+Sans+Pro:wght@200;300&display=swap" rel="stylesheet">
+    <title>Dashboard</title>
+</head>
+<body >
+    <header class="header">
+        <div class="container flex">            
+                <a href="#">
+                    <img class="logo" src="assets/media/altcampus-logo.svg" alt="">
+                </a>
+                <nav>                  
+                    <a href="#">
+                        <img src="assets/media/icons/bell.svg" alt="">
+                    </a>                                
+                    <a href="#">
+                        <h3>Sara Jhon</h3>
+                        <img src="assets/media/icons/user.svg" alt="">
+                    </a>                
+                </nav>      
+        </div>        
+    </header>
+    <main class="container flex">
+        <section class="section">
+            <div class="side-bar">
+                <div>
+                    <div>
+                        <img class="box" src="assets/media/icons/dashboard.svg" alt="">
+                        <span>dashboard</span>
+                    </div>
+                    <div class="active">
+                        <img class="box" src="assets/media/icons/article.svg" alt="">
+                        <span>article</span>
+                    </div>
+                    <div>
+                        <img class="box" src="assets/media/icons/analytics.svg" alt="">
+                        <span>analytics</span>
+                    </div>
+                    <div>
+                        <img class="box" src="assets/media/icons/inbox.svg" alt="">
+                        <span>inbox</span>
+                    </div>
+                    <div>
+                        <img class="box" src="assets/media/icons/setting.svg" alt="">
+                        <span>setting</span>
+                    </div>
+                </div>
+                <div>
+                    <div class="log">
+                        <img class="box"src="assets/media/icons/log-out.svg" alt="">
+                        <span>log-out</span>
+                    </div>                                                                                      
+                </div>                
+            </div>            
+        </section>
+        <section class="section1">
+            <article class="artical">
+                <div >
+                    <img class="artical-img" src="assets/media/01.png" alt="o1">
+                </div>
+                <div class="artical-text">
+                    <h2>Kamet consectetur</h2>
+                    <p>
+                        Lorem ipsum dolor,Lorem ipsum dolor sit amet consectetur adipisicing elit. Kharum, tenetur a nisi quibusdam. Laudantium blanditiis vero nam ipsam totam, veniam recusandae dicta perspiciatis soluta deserunt!
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque enim rem earum sed officiis debitis perferendis ut facilis explicabo eaque! Id veritatis iste fuga, rem obcaecati beatae ducimus culpa cum?
+                        sit voluptas,  vel amet nisi at voluptate perferendis accusantium sed. Excepturi?
+                    </p>
+                    <div class="btn">Read More</div>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container flex">
+            <small>&copy;AltCampus</small>
+            <nav>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+            </nav>
+        </div>        
+    </footer>    
+</body>
+</html>
